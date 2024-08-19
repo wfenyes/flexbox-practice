@@ -1,0 +1,138 @@
+/* * {
+    border: 1px solid black !important;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;   
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+/*Card Styling*/
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 20px auto;
+    max-width: 800px;
+
+}
+
+.card {
+max-width: 200px;
+max-height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0 auto;
+
+
+}
+
+.card > * {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.card p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/*Medium Callouts*/
+
+.ad-cards {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    gap: 20px;
+
+
+}
+
+.ad-card {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    min-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.img-left {
+    flex-direction: row-reverse;
+}
+
+/*Portfolio Section */
+
+.portfolio {
+    margin: 20px auto;
+}
+
+
+.portfolio h1 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.portfolio p {
+    text-align: center;
+}
+
+.port-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.port-nav-li {
+    border: 1px solid black;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.port-cards {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 60%;
+}
+
+.port-card {
+    max-width: 250px;
+    min-width: 250px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
